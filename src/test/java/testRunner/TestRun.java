@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 // (features={"src/test/resource/login.feature","src/test/resource/usermanagement.feature"},
-//(features = { "src/test/resource" },
-		 (features={"src/test/resource/usermanagement.feature"},
+(features = { "src/test/resource" },
+//		 (features={"src/test/resource/usermanagement.feature"},
 		glue = { "stepDefinations" }, dryRun = false, monochrome = true, plugin = { "pretty",
 				"html:target/HTMLReports" }
 		// tags={"@sanity"}
