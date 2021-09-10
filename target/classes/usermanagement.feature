@@ -8,7 +8,7 @@ And user enter the Email as "Admin" and Password as "admin123"
 When click on the login button
 Then Dashboard page should be displayed url should be "https://opensource-demo.orangehrmlive.com/index.php/dashboard"
 
-@regression
+@sanity
 Scenario: Add the new user and search in the table
 When Navigate to the usermanagement page
 And click on add button
