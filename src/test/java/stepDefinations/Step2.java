@@ -33,8 +33,8 @@ public class Step2 extends base {
 
 	@And("^click on add button$")
 	public void click_on_add_button() {
-		Assert.assertTrue(up.SystemUsersValiation().isDisplayed()); // Users
 		up = new UsermanagementPage(driver);
+		Assert.assertTrue(up.SystemUsersValiation().isDisplayed()); // Users
 		up.addButton().click();
 
 	}

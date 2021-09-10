@@ -1,3 +1,6 @@
-mvn clean
-mvn compile
-mvn test
+git init
+git status
+git add *
+git commit -m "7th commit"
+git push origin master
+
