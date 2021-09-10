@@ -17,3 +17,13 @@ And Succefullysaved message should be displayed
 Then Search the user in the Search box by entering username and Employee Name
 And The user should be reflected in the Table search
 And close the Browser
+
+@sanity
+Scenario: Add the job Titles and verify once after job Title is Added 
+When Navigate to the usermanagement page
+And Navigate to the job Titles Page 
+And create the new job title by clicking on add button, once added job title should be visible in table
+Then Search the added job title is present in the job Titles page and delete the title
+And verify that job title has been deleted from the job Titles table
+And close the Browser
+

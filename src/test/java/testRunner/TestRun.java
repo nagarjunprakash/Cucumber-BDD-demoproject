@@ -13,6 +13,7 @@ import cucumber.api.junit.Cucumber;
 		glue = { "stepDefinations" }, dryRun = false, monochrome = true, plugin = { "pretty",
 				"html:target/HTMLReports" },
  tags={"@sanity"}
+//tags={"@test"}		
 // tags = {"@regression"}
 // tags={"@sanity","@regression"}
 // tags={"@sanity,@regression"}

@@ -170,3 +170,54 @@
 2021-09-09 16:18:08,844 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
 2021-09-09 16:18:13,770 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
 2021-09-09 16:18:13,806 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 09:36:29,388 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 09:36:35,105 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 09:36:35,565 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 09:36:39,351 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 09:36:39,367 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 09:36:40,298 - Project Cucumber BDD DemoProject -INFO - *****Closed the browser********
+2021-09-10 09:36:41,956 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 09:36:48,193 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 09:36:48,634 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 09:36:54,360 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 09:36:54,368 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 10:13:20,295 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 10:13:27,694 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 10:13:28,220 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 10:13:34,360 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 10:13:34,372 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 14:14:22,451 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 14:14:27,637 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 14:14:28,626 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 14:14:34,352 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 14:14:34,382 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 14:52:07,233 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 14:52:12,980 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 14:52:13,525 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 14:52:19,205 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 14:52:19,235 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 14:54:59,753 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 14:55:06,622 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 14:55:07,116 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 14:55:13,139 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 14:55:13,152 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 14:58:16,391 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 14:58:23,995 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 14:58:24,529 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 14:58:30,287 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 14:58:30,305 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 15:00:14,261 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 15:00:21,034 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 15:00:21,623 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 15:00:27,399 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 15:00:27,419 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 15:00:59,683 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 15:01:06,688 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 15:01:07,188 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 15:01:12,844 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 15:01:12,861 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
+2021-09-10 15:25:16,124 - Project Cucumber BDD DemoProject -INFO - ****Launching Browser**
+2021-09-10 15:25:23,212 - Project Cucumber BDD DemoProject -INFO - *****Passing the URL ********
+2021-09-10 15:25:23,707 - Project Cucumber BDD DemoProject -INFO - *****Providing the user Information for Valid Single user ********
+2021-09-10 15:25:29,454 - Project Cucumber BDD DemoProject -INFO - *****Clicking on Login button ********
+2021-09-10 15:25:29,469 - Project Cucumber BDD DemoProject -INFO - *****Opening the Dashboard page after login ********
