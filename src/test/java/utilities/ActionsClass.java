@@ -8,28 +8,32 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ActionsClass {
 	WebDriver driver;
+	 Actions act;
 
-	public ActionsClass(WebDriver driver) {
+	public ActionsClass(WebDriver driver ){
 		this.driver = driver;
-
 	}
+	
+	public void mouseoverandselectoption(WebElement element, List<WebElement> options, String text) {
 
-	public void mouseoverandselectoption(WebElement element, List<WebElement> options,String text) {
-		Actions act=new Actions(driver);
-		
+		Actions act = new Actions(driver);
 		act.moveToElement(element).build().perform();
-		for(int i=0;i<options.size();i++)
-		{
-			if(options.get(i).getText().contains(text))
-			{
+		for (int i = 0; i < options.size(); i++) {
+			if (options.get(i).getText().contains(text)) {
 				options.get(i).click();
 				break;
 			}
-			
+
+		}
+	}
+
+	public void mouseover(WebElement element1) {
+		Actions act = new Actions(driver);
+	
+			act.moveToElement(element1).click().build().perform();
+		
 		}
 		
-//		act.moveToElement(element).moveToElement(options).click().build().perform();
-	
-	
+
 	}
-}
+

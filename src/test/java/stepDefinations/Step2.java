@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import cucumber.api.java.en.*;
+//import io.cucumber.java.en.*;
+
 import org.junit.Assert;
 import pageObjects.AllTabs;
 import pageObjects.UsermanagementPage;
@@ -23,7 +25,7 @@ public class Step2 extends base {
 	ActionsClass act;
 	TableresultsUtility tableResult;
 
-	@When("^Navigate to the usermanagement page$")
+	@When("Navigate to the usermanagement page")
 	public void navigate_to_the_usermanagement_page() {
 		System.out.println(driver);
 		at = new AllTabs(driver);
@@ -69,7 +71,7 @@ public class Step2 extends base {
 		dropdwnselectvariable = new DropdownSelectResult(driver);
 		String text = up.searchEmployeName().split(" ")[0];
 		up.employeeName().sendKeys(text);
-		dropdwnselectvariable.dropdownSelectResult(up.searchEmployeName(), up.allsuggestions());
+		dropdwnselectvariable.dropdownSelectResultAutosugestion(up.searchEmployeName(), up.allsuggestions());
 		up.searchButton().click();
 		Thread.sleep(2000);
 
@@ -128,10 +130,6 @@ public class Step2 extends base {
 		 System.out.println("Deleted the jobTile "+randomName +" from the table"); 
 	 }
 	
-	@And("^close the Browser$")
-	public void close_the_browser() {
-		driver.quit();
 
-	}
 
 }

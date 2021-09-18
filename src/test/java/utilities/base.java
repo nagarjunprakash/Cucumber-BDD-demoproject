@@ -14,9 +14,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class base {
 
 	public static WebDriver driver;
-	public WebDriverWait wait;
-	public static Logger logger;
-	public Properties configProp;
+	public  static Logger log;
+	public static Properties configProp;
 
 	public WebDriver initializeDriver() {
 
@@ -46,8 +45,9 @@ public class base {
 		return driver;
 	}
 
-	public void waitmethod() {
-		wait = new WebDriverWait(driver, 10);
+	public static WebDriverWait waitmethod(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		return wait;
 	}
 
 	// utility for generating the randomstring for the unique email id

@@ -18,6 +18,7 @@ public class AllTabs {
 	By directoryTab = By.id("menu_directory_viewDirectory");
 	By maintainaceTab = By.xpath("(//a[@id='menu_maintenance_purgeEmployee'])[1]");
 	By buzzTab = By.id("menu_buzz_viewBuzz");
+	By recruitmentsTab=By.id("menu_recruitment_viewRecruitmentModule");
 
 	public AllTabs(WebDriver driver) {
 		this.driver=driver;
@@ -61,7 +62,9 @@ public class AllTabs {
 		return driver.findElement(buzzTab);
 	}
 
-
+	public WebElement recruitmentsTab() {
+		return driver.findElement(recruitmentsTab);
+	}
 
 
 

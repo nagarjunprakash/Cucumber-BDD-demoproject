@@ -16,10 +16,10 @@ public class WaitHelper {
 		
 	}
 	
-	public void waitForElement(WebElement addButton,long timeOutInSeconds)
+	public void waitForElement(WebElement element,long timeOutInSeconds)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-		wait.until(ExpectedConditions.visibilityOf(addButton));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	
 	}
 	

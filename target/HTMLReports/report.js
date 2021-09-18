@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resource/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resource/features/login.feature");
 formatter.feature({
   "name": "Login(Step1)",
   "description": "",
@@ -73,7 +73,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "close the browser",
+  "name": "close the Browser",
   "keyword": "And "
 });
 formatter.match({
@@ -82,7 +82,342 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("file:src/test/resource/usermanagement.feature");
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Successful Login to the application with valid credentials Data driven testing",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "para user enter the Email as \u003cusername\u003e and Password as \u003cpassword\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "click on the login button",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "close the Browser",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "test1",
+        "test1"
+      ]
+    },
+    {
+      "cells": [
+        "test2",
+        "test2"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "These are the common steps found across the scenarios implemented in this feature",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Initialize browser with chrome",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Step1.initialize_browser_with_chrome()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to the \"https://opensource-demo.orangehrmlive.com/index.php/auth/login\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.navigate_to_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Successful Login to the application with valid credentials Data driven testing",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "para user enter the Email as test1 and Password as test1",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.parameterisation_user_enter_the_Email_as_and_Password_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on the login button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Step1.click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Step1.dashboard_page_should_be_displayed_url_should_be_something(String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c...mlive.com/index.php/[dashboard]\u003e but was:\u003c...mlive.com/index.php/[auth/validateCredentials]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinations.Step1.dashboard_page_should_be_displayed_url_should_be_something(Step1.java:93)\r\n\tat ✽.Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"(file:src/test/resource/features/login.feature:19)\r\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "close the Browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.close_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "These are the common steps found across the scenarios implemented in this feature",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Initialize browser with chrome",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Step1.initialize_browser_with_chrome()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to the \"https://opensource-demo.orangehrmlive.com/index.php/auth/login\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.navigate_to_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Successful Login to the application with valid credentials Data driven testing",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "para user enter the Email as test2 and Password as test2",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.parameterisation_user_enter_the_Email_as_and_Password_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on the login button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Step1.click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Step1.dashboard_page_should_be_displayed_url_should_be_something(String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c...mlive.com/index.php/[dashboard]\u003e but was:\u003c...mlive.com/index.php/[auth/validateCredentials]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinations.Step1.dashboard_page_should_be_displayed_url_should_be_something(Step1.java:93)\r\n\tat ✽.Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"(file:src/test/resource/features/login.feature:19)\r\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "close the Browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.close_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resource/features/recruitment.feature");
+formatter.feature({
+  "name": "Recruitment(Step3)",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.background({
+  "name": "These are the common steps found across the scenarios implemented in this feature",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Initialize browser with chrome",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Step1.initialize_browser_with_chrome()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Navigate to the \"https://opensource-demo.orangehrmlive.com/index.php/auth/login\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.navigate_to_the(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enter the Email as \"Admin\" and Password as \"admin123\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.user_enter_the_Email_as_and_Password_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on the login button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Step1.click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dashboard page should be displayed url should be \"https://opensource-demo.orangehrmlive.com/index.php/dashboard\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Step1.dashboard_page_should_be_displayed_url_should_be_something(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "when the Candidates profile is searched in the filer then the relavent results should be displayed in the table",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@test"
+    }
+  ]
+});
+formatter.step({
+  "name": "Navigate to Recruitment page by clicking in the Recruitment Tab",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Step3.navigate_to_recruitment_page_by_clicking_in_the_recruitment_tab()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enter all the relavent feilds of the filter and click on search",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step3.enter_all_the_relavent_feilds_of_the_filter_and_click_on_search()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "In the table relavent search results sould be displayed as per the filter Applied",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Step3.in_the_table_relavent_search_results_sould_be_displayed_as_per_the_filter_applied()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "close the Browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Step1.close_the_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resource/features/usermanagement.feature");
 formatter.feature({
   "name": "Usermanagement(Step2)",
   "description": "",
@@ -221,9 +556,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Step2.close_the_browser()"
+  "location": "Step1.close_the_browser()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.background({
@@ -349,9 +687,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "Step2.close_the_browser()"
+  "location": "Step1.close_the_browser()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
